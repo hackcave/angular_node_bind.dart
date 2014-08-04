@@ -111,4 +111,7 @@ class ValueBindable implements Bindable {
 
   @override
   get value => _value;
+  
+  @override
+  void deliver() {}
 }
